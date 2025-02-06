@@ -1,0 +1,26 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.3.0)
+  - AudioKit (4.11.2):
+    - AudioKit/Core (= 4.11.2)
+    - AudioKit/UI (= 4.11.2)
+  - AudioKit/Core (4.11.2)
+  - AudioKit/UI (4.11.2):
+    - AudioKit/Core
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 2.3.0)
+  - AudioKit (~> 4.11.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ActionSheetPicker-3.0
+  trunk:
+    - AudioKit
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
+  AudioKit: 57cc61d708f085763a031e5c3f87adae21dc4b59
+
+PODFILE CHECKSUM: 5814c3665b54f9010467f11c5ddc56a08db7c567
+
+COCOAPODS: 1.10.0

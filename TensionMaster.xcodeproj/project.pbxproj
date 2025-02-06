@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FEAB170F259E1723EE49DFF /* Pods_TensionMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3D647417BF5328A8DD8F9F /* Pods_TensionMaster.framework */; };
+		870021F82185E2A8009D7856 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870021F72185E2A8009D7856 /* AppDelegate.swift */; };
+		870021FD2185E2A8009D7856 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870021FB2185E2A8009D7856 /* Main.storyboard */; };
+		870021FF2185E2AA009D7856 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 870021FE2185E2AA009D7856 /* Assets.xcassets */; };
+		870022022185E2AA009D7856 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 870022002185E2AA009D7856 /* LaunchScreen.storyboard */; };
+		8700220A2186071E009D7856 /* SoundAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870022092186071E009D7856 /* SoundAnalyzer.swift */; };
+		8700220E21865643009D7856 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700220D21865643009D7856 /* SettingsTableViewController.swift */; };
+		8700221021866292009D7856 /* PickerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700220F21866292009D7856 /* PickerMediator.swift */; };
+		87002212218665ED009D7856 /* HeadSizePickerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87002211218665ED009D7856 /* HeadSizePickerMediator.swift */; };
+		870022142187BA02009D7856 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870022132187BA02009D7856 /* MeasureViewController.swift */; };
+		8700221A2189966E009D7856 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870022192189966E009D7856 /* Settings.swift */; };
+		8700221C218A596C009D7856 /* StringDiameterPickerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700221B218A596C009D7856 /* StringDiameterPickerMediator.swift */; };
+		87002220218A5DEB009D7856 /* TensionUnitPickerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700221F218A5DEB009D7856 /* TensionUnitPickerMediator.swift */; };
+		87095006220B7BD0007E7A75 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87095005220B7BD0007E7A75 /* Colors.swift */; };
+		87095008220B8CA4007E7A75 /* UIGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87095007220B8CA4007E7A75 /* UIGradientView.swift */; };
+		8709500A220B9342007E7A75 /* WhiteStatusNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87095009220B9342007E7A75 /* WhiteStatusNavController.swift */; };
+		8709500C220CE9F9007E7A75 /* DarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709500B220CE9F9007E7A75 /* DarkTableViewCell.swift */; };
+		8709500E220CEACE007E7A75 /* MainCellLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709500D220CEACE007E7A75 /* MainCellLabel.swift */; };
+		87095010220CEADF007E7A75 /* SecondaryCellLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8709500F220CEADF007E7A75 /* SecondaryCellLabel.swift */; };
+		8717C176226CDF9E0012E1C9 /* StringPatternPickerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717C175226CDF9E0012E1C9 /* StringPatternPickerMediator.swift */; };
+		8717C178226CE1B50012E1C9 /* StringerStylePickerMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8717C177226CE1B50012E1C9 /* StringerStylePickerMediator.swift */; };
+		8724851D219A21A800566FE5 /* NSAttributedString+Tension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8724851C219A21A800566FE5 /* NSAttributedString+Tension.swift */; };
+		872B2302227D8B0200D5595C /* OptionsPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2301227D8B0200D5595C /* OptionsPickerTableViewController.swift */; };
+		872B2304227D96AC00D5595C /* DetailedOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B2303227D96AC00D5595C /* DetailedOptionTableViewCell.swift */; };
+		8772AD0F2190E86600863B27 /* ModeSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8772AD0E2190E86600863B27 /* ModeSelectionTableViewController.swift */; };
+		8772AD112190F17A00863B27 /* AdjustTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8772AD102190F17A00863B27 /* AdjustTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14E95AE56488011CF748A557 /* Pods-TensionMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensionMaster.release.xcconfig"; path = "Target Support Files/Pods-TensionMaster/Pods-TensionMaster.release.xcconfig"; sourceTree = "<group>"; };
+		683F43AA5E86A959569069CD /* Pods-TensionMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensionMaster.debug.xcconfig"; path = "Target Support Files/Pods-TensionMaster/Pods-TensionMaster.debug.xcconfig"; sourceTree = "<group>"; };
+		870021F42185E2A8009D7856 /* TensionMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TensionMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		870021F72185E2A8009D7856 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		870021FC2185E2A8009D7856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		870021FE2185E2AA009D7856 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		870022012185E2AA009D7856 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		870022032185E2AA009D7856 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		870022092186071E009D7856 /* SoundAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundAnalyzer.swift; sourceTree = "<group>"; };
+		8700220D21865643009D7856 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		8700220F21866292009D7856 /* PickerMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerMediator.swift; sourceTree = "<group>"; };
+		87002211218665ED009D7856 /* HeadSizePickerMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadSizePickerMediator.swift; sourceTree = "<group>"; };
+		870022132187BA02009D7856 /* MeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureViewController.swift; sourceTree = "<group>"; };
+		870022192189966E009D7856 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8700221B218A596C009D7856 /* StringDiameterPickerMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDiameterPickerMediator.swift; sourceTree = "<group>"; };
+		8700221F218A5DEB009D7856 /* TensionUnitPickerMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensionUnitPickerMediator.swift; sourceTree = "<group>"; };
+		87095005220B7BD0007E7A75 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		87095007220B8CA4007E7A75 /* UIGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGradientView.swift; sourceTree = "<group>"; };
+		87095009220B9342007E7A75 /* WhiteStatusNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteStatusNavController.swift; sourceTree = "<group>"; };
+		8709500B220CE9F9007E7A75 /* DarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTableViewCell.swift; sourceTree = "<group>"; };
+		8709500D220CEACE007E7A75 /* MainCellLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellLabel.swift; sourceTree = "<group>"; };
+		8709500F220CEADF007E7A75 /* SecondaryCellLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryCellLabel.swift; sourceTree = "<group>"; };
+		8717C175226CDF9E0012E1C9 /* StringPatternPickerMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringPatternPickerMediator.swift; sourceTree = "<group>"; };
+		8717C177226CE1B50012E1C9 /* StringerStylePickerMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringerStylePickerMediator.swift; sourceTree = "<group>"; };
+		8724851C219A21A800566FE5 /* NSAttributedString+Tension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Tension.swift"; sourceTree = "<group>"; };
+		872B2301227D8B0200D5595C /* OptionsPickerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsPickerTableViewController.swift; sourceTree = "<group>"; };
+		872B2303227D96AC00D5595C /* DetailedOptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedOptionTableViewCell.swift; sourceTree = "<group>"; };
+		8772AD0E2190E86600863B27 /* ModeSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelectionTableViewController.swift; sourceTree = "<group>"; };
+		8772AD102190F17A00863B27 /* AdjustTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustTableViewCell.swift; sourceTree = "<group>"; };
+		CC3D647417BF5328A8DD8F9F /* Pods_TensionMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensionMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		870021F12185E2A8009D7856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FEAB170F259E1723EE49DFF /* Pods_TensionMaster.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		376E33B2115060749114A35D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				683F43AA5E86A959569069CD /* Pods-TensionMaster.debug.xcconfig */,
+				14E95AE56488011CF748A557 /* Pods-TensionMaster.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		870021EB2185E2A8009D7856 = {
+			isa = PBXGroup;
+			children = (
+				870021F62185E2A8009D7856 /* TensionMaster */,
+				870021F52185E2A8009D7856 /* Products */,
+				376E33B2115060749114A35D /* Pods */,
+				CA83FDFC2B96EE0CD702545E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		870021F52185E2A8009D7856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870021F42185E2A8009D7856 /* TensionMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		870021F62185E2A8009D7856 /* TensionMaster */ = {
+			isa = PBXGroup;
+			children = (
+				870022152187BA23009D7856 /* Utility */,
+				870022162187BA47009D7856 /* UI */,
+				870021F72185E2A8009D7856 /* AppDelegate.swift */,
+				870021FB2185E2A8009D7856 /* Main.storyboard */,
+				870021FE2185E2AA009D7856 /* Assets.xcassets */,
+				870022002185E2AA009D7856 /* LaunchScreen.storyboard */,
+				870022032185E2AA009D7856 /* Info.plist */,
+			);
+			path = TensionMaster;
+			sourceTree = "<group>";
+		};
+		870022152187BA23009D7856 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				870022092186071E009D7856 /* SoundAnalyzer.swift */,
+				870022192189966E009D7856 /* Settings.swift */,
+				8724851C219A21A800566FE5 /* NSAttributedString+Tension.swift */,
+				87095005220B7BD0007E7A75 /* Colors.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		870022162187BA47009D7856 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8709500B220CE9F9007E7A75 /* DarkTableViewCell.swift */,
+				8709500D220CEACE007E7A75 /* MainCellLabel.swift */,
+				8709500F220CEADF007E7A75 /* SecondaryCellLabel.swift */,
+				870022172187BA7B009D7856 /* CommonHelpers */,
+				870022182187BA84009D7856 /* Screens */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		870022172187BA7B009D7856 /* CommonHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				8700220F21866292009D7856 /* PickerMediator.swift */,
+				87002211218665ED009D7856 /* HeadSizePickerMediator.swift */,
+				8700221B218A596C009D7856 /* StringDiameterPickerMediator.swift */,
+				8700221F218A5DEB009D7856 /* TensionUnitPickerMediator.swift */,
+				8717C175226CDF9E0012E1C9 /* StringPatternPickerMediator.swift */,
+				8772AD102190F17A00863B27 /* AdjustTableViewCell.swift */,
+				87095007220B8CA4007E7A75 /* UIGradientView.swift */,
+				87095009220B9342007E7A75 /* WhiteStatusNavController.swift */,
+				8717C177226CE1B50012E1C9 /* StringerStylePickerMediator.swift */,
+			);
+			path = CommonHelpers;
+			sourceTree = "<group>";
+		};
+		870022182187BA84009D7856 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				870022132187BA02009D7856 /* MeasureViewController.swift */,
+				872B2300227D8A9100D5595C /* Settings */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		872B2300227D8A9100D5595C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8700220D21865643009D7856 /* SettingsTableViewController.swift */,
+				8772AD0E2190E86600863B27 /* ModeSelectionTableViewController.swift */,
+				872B2301227D8B0200D5595C /* OptionsPickerTableViewController.swift */,
+				872B2303227D96AC00D5595C /* DetailedOptionTableViewCell.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CA83FDFC2B96EE0CD702545E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D647417BF5328A8DD8F9F /* Pods_TensionMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		870021F32185E2A8009D7856 /* TensionMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870022062185E2AA009D7856 /* Build configuration list for PBXNativeTarget "TensionMaster" */;
+			buildPhases = (
+				D5CAAF071B6D0AB6FB8A284B /* [CP] Check Pods Manifest.lock */,
+				870021F02185E2A8009D7856 /* Sources */,
+				870021F12185E2A8009D7856 /* Frameworks */,
+				870021F22185E2A8009D7856 /* Resources */,
+				ACB143B463EDB724AC3FF2AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TensionMaster;
+			productName = TensionMaster;
+			productReference = 870021F42185E2A8009D7856 /* TensionMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		870021EC2185E2A8009D7856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Nikolay Markov";
+				TargetAttributes = {
+					870021F32185E2A8009D7856 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 870021EF2185E2A8009D7856 /* Build configuration list for PBXProject "TensionMaster" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 870021EB2185E2A8009D7856;
+			productRefGroup = 870021F52185E2A8009D7856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				870021F32185E2A8009D7856 /* TensionMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		870021F22185E2A8009D7856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870022022185E2AA009D7856 /* LaunchScreen.storyboard in Resources */,
+				870021FF2185E2AA009D7856 /* Assets.xcassets in Resources */,
+				870021FD2185E2A8009D7856 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACB143B463EDB724AC3FF2AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TensionMaster/Pods-TensionMaster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TensionMaster/Pods-TensionMaster-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TensionMaster/Pods-TensionMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CAAF071B6D0AB6FB8A284B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TensionMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		870021F02185E2A8009D7856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870022142187BA02009D7856 /* MeasureViewController.swift in Sources */,
+				8700220E21865643009D7856 /* SettingsTableViewController.swift in Sources */,
+				8717C178226CE1B50012E1C9 /* StringerStylePickerMediator.swift in Sources */,
+				8772AD112190F17A00863B27 /* AdjustTableViewCell.swift in Sources */,
+				872B2304227D96AC00D5595C /* DetailedOptionTableViewCell.swift in Sources */,
+				8717C176226CDF9E0012E1C9 /* StringPatternPickerMediator.swift in Sources */,
+				87095010220CEADF007E7A75 /* SecondaryCellLabel.swift in Sources */,
+				8709500C220CE9F9007E7A75 /* DarkTableViewCell.swift in Sources */,
+				87095006220B7BD0007E7A75 /* Colors.swift in Sources */,
+				8700221C218A596C009D7856 /* StringDiameterPickerMediator.swift in Sources */,
+				8700221021866292009D7856 /* PickerMediator.swift in Sources */,
+				8709500E220CEACE007E7A75 /* MainCellLabel.swift in Sources */,
+				8700220A2186071E009D7856 /* SoundAnalyzer.swift in Sources */,
+				8709500A220B9342007E7A75 /* WhiteStatusNavController.swift in Sources */,
+				8700221A2189966E009D7856 /* Settings.swift in Sources */,
+				87002220218A5DEB009D7856 /* TensionUnitPickerMediator.swift in Sources */,
+				87002212218665ED009D7856 /* HeadSizePickerMediator.swift in Sources */,
+				872B2302227D8B0200D5595C /* OptionsPickerTableViewController.swift in Sources */,
+				8772AD0F2190E86600863B27 /* ModeSelectionTableViewController.swift in Sources */,
+				870021F82185E2A8009D7856 /* AppDelegate.swift in Sources */,
+				87095008220B8CA4007E7A75 /* UIGradientView.swift in Sources */,
+				8724851D219A21A800566FE5 /* NSAttributedString+Tension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		870021FB2185E2A8009D7856 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870021FC2185E2A8009D7856 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		870022002185E2AA009D7856 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				870022012185E2AA009D7856 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		870022042185E2AA009D7856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		870022052185E2AA009D7856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		870022072185E2AA009D7856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 683F43AA5E86A959569069CD /* Pods-TensionMaster.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPBU74T244;
+				INFOPLIST_FILE = TensionMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikdokov.TensionMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		870022082185E2AA009D7856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E95AE56488011CF748A557 /* Pods-TensionMaster.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPBU74T244;
+				INFOPLIST_FILE = TensionMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ikdokov.TensionMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		870021EF2185E2A8009D7856 /* Build configuration list for PBXProject "TensionMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870022042185E2AA009D7856 /* Debug */,
+				870022052185E2AA009D7856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870022062185E2AA009D7856 /* Build configuration list for PBXNativeTarget "TensionMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870022072185E2AA009D7856 /* Debug */,
+				870022082185E2AA009D7856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 870021EC2185E2A8009D7856 /* Project object */;
+}
